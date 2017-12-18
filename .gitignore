@@ -1,1 +1,4 @@
 nodeInAction.code-workspace
+.vscode/
+hello_express/node_modules/
+hello_express/package-lock.json
