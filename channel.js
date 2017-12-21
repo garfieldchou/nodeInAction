@@ -4,3 +4,4 @@ channel.on('join', () => {
   console.log('Welcome!');
 });
 
+channel.emit('join')
