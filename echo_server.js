@@ -1,6 +1,6 @@
 const net = require('net');
 const server = net.createServer(socket => {
-  socket.once('data', data => {
+  socket.on('data', data => {
     socket.write(data);
   });
 });
